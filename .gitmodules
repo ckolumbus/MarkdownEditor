@@ -1,0 +1,5 @@
+[submodule "submodules/markdig"]
+	path = submodules/markdig
+    url = https://github.com/ckolumbus/markdig.git
+
+;    branch = plantumlrender-support

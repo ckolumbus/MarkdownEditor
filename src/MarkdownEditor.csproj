@@ -240,8 +240,8 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\markdig\src\Markdig\Markdig.csproj">
-      <Project>{ec7a3708-7a40-470a-ae12-01b9803a8878}</Project>
+    <ProjectReference Include="..\submodules\markdig\src\Markdig\Markdig.csproj">
+      <Project>{504846c3-6b55-4460-8ad8-57906026fb35}</Project>
       <Name>Markdig</Name>
       <AdditionalProperties>TargetFramework=net40</AdditionalProperties>
     </ProjectReference>
