@@ -22,6 +22,7 @@ namespace MarkdownEditor.Parsing
         {
             var builder = new MarkdownPipelineBuilder()
                 .UsePragmaLines()
+                .UsePlantUmlRenderServer(MarkdownEditorPackage.Options.PlantUmlServerUrl)
                 .UseDiagrams()
                 .UseAdvancedExtensions()
                 .UseYamlFrontMatter();

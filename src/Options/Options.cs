@@ -91,6 +91,13 @@ namespace MarkdownEditor
         [DefaultValue(true)]
         public bool EnableValidation { get; set; } = true;
 
+        // PlantUml
+        [Category("PlantUml")]
+        [DisplayName("PlantUml Server URL")]
+        [Description("Enable PlantUml CodeBlock Rendering by providing a PlantUML server URL.")]
+        [DefaultValue("http://localhost:8090")]
+        public string PlantUmlServerUrl { get; set; } = "http://localhost:8090";
+
         // Markdown Flavor
         [Category("Markdown Flavor")]
         [DisplayName("Use Softline Break As Hardline Break")]
